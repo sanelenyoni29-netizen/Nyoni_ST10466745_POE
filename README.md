@@ -103,65 +103,56 @@ CSS Grid and Flexbox are used to organise website content. Media queries are als
 SEO and Deployment
 To meet modern web standards, the following SEO best practices were applied:
 
-Descriptive alt tags on all images.
+- Descriptive alt tags on all images.
+- Semantic HTML tags (<header>, <nav>, <main>, <section>, <footer>).
+- Unique <title> and <meta name="description"> tags on all pages.
+- Inclusion of robots.txt and sitemap.xml files in the root directory.
 
-Semantic HTML tags (<header>, <nav>, <main>, <section>, <footer>).
+--- 
 
-Unique <title> and <meta name="description"> tags on all pages.
-
-Inclusion of robots.txt and sitemap.xml files in the root directory.
-
-Live Website: [Paste your Netlify URL here, e.g., https://sweet-crust-bakery-st10466745.netlify.app]
 Changelog
+
 v1.0.0 (Part 1 - Structure & HTML):
-
-Initial project setup.
-
-Developed HTML skeleton and semantic navigation for all pages.
-
-Integrated provided bakery images with descriptive alt tags.
-
-Created an order.html page with a pricing table.
+Part 1
+- Initial project setup.
+- Developed HTML skeleton and semantic navigation for all pages.
+- Integrated provided bakery images with descriptive alt tags.
+- Created an order.html page with a pricing table.
 
 v2.0.0 (Part 2 - CSS & Responsive Design):
-
-Created and linked external style.css.
-
-Implemented CSS Grid for products and footer layout.
-
-Added hover and focus pseudo-classes for interactive elements.
-
-Implemented media queries for mobile and desktop layouts.
-
-Added a multi-column footer with Quick Links.
+Part 2
+- Created and linked external style.css.
+- Implemented CSS Grid for products and footer layout.
+- Added hover and focus pseudo-classes for interactive elements.
+- Implemented media queries for mobile and desktop layouts.
+- Added a multi-column footer with Quick Links.
 
 v3.0.0 (Part 3 - JavaScript, SEO & Deployment):
+Part 3
+- Implemented JavaScript for the mobile hamburger menu toggle.
+- Added strict client-side form validation (12-character names, email Regex, phone number checks, consent checkbox).
+- Added a CSS processing spinner to form submit buttons.
+- Implemented simulated AJAX submission for forms, displaying dynamic success messages.
+- Added an interactive Google Map centered on Pretoria.
+- Added Meta descriptions and SEO tags to all pages.
+- Created robots.txt and sitemap.xml.
 
-Implemented JavaScript for the mobile hamburger menu toggle.
-
-Added strict client-side form validation (12-character names, email Regex, phone number checks, consent checkbox).
-
-Added a CSS processing spinner to form submit buttons.
-
-Implemented simulated AJAX submission for forms, displaying dynamic success messages.
-
-Added an interactive Google Map centered on Pretoria.
-
-Added Meta descriptions and SEO tags to all pages.
-
-Created robots.txt and sitemap.xml.
-
-Deployed the final website to Netlify.
+---
 
 Author
 Sanele Mandlenkosi Nyoni
 Diploma in Information Technology
 IIE Rosebank College
 
+---
+
 Project Status
 The website is fully complete (Parts 1, 2, and 3). It includes the main HTML structure, external CSS styling, JavaScript interactivity, strict form validation, SEO optimization, and an interactive map. The design is fully responsive and deployed live.
 
-References
+---
+
+# References
+
 Mozilla Developer Network. (2026) HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 27 October 2026).
 
 Mozilla Developer Network. (2026) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 27 October 2026).
