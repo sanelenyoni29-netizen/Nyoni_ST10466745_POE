@@ -69,7 +69,7 @@ To enhance the user experience and meet the final POE requirements, the followin
 
 ---
 
-## Project Structure
+# Project Structure
 
 Sweet-Crust-Bakery/
 │
