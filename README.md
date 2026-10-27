@@ -67,9 +67,10 @@ To enhance the user experience and meet the final POE requirements, the followin
 - **Simulated AJAX Submission:** Both forms prevent the default page reload. After a 1.5-second simulated delay, the form hides and a dynamic success message appears without refreshing the page.
 - **Interactive Google Map:** Embedded on the contact page to show the Pretoria location.
 
+---
+
 ## Project Structure
 
-```text
 Sweet-Crust-Bakery/
 │
 ├── index.html
@@ -95,12 +96,16 @@ Sweet-Crust-Bakery/
 │
 └── js/
     └── script.js
-Responsive Design
+--- 
+
+# Responsive Design
 The website uses Responsive Web Design techniques to improve its appearance on different screen sizes.
 
 CSS Grid and Flexbox are used to organise website content. Media queries are also used to adjust the layout for mobile phones (max-width: 768px), tablets (769px - 1024px), and desktop screens. The navigation menu transforms into a hamburger menu on smaller devices. Images are responsive using max-width: 100% and the order table uses fixed sizes so it doesn't break the layout.
 
-SEO and Deployment
+---
+
+# SEO and Deployment
 To meet modern web standards, the following SEO best practices were applied:
 
 - Descriptive alt tags on all images.
@@ -110,25 +115,25 @@ To meet modern web standards, the following SEO best practices were applied:
 
 --- 
 
-Changelog
+# Changelog
 
-v1.0.0 (Part 1 - Structure & HTML):
-Part 1
+Part 1 - Structure & HTML:
+
 - Initial project setup.
 - Developed HTML skeleton and semantic navigation for all pages.
 - Integrated provided bakery images with descriptive alt tags.
 - Created an order.html page with a pricing table.
 
-v2.0.0 (Part 2 - CSS & Responsive Design):
-Part 2
+ Part 2 - CSS & Responsive Design:
+
 - Created and linked external style.css.
 - Implemented CSS Grid for products and footer layout.
 - Added hover and focus pseudo-classes for interactive elements.
 - Implemented media queries for mobile and desktop layouts.
 - Added a multi-column footer with Quick Links.
 
-v3.0.0 (Part 3 - JavaScript, SEO & Deployment):
-Part 3
+Part 3 - JavaScript, SEO & Deployment:
+
 - Implemented JavaScript for the mobile hamburger menu toggle.
 - Added strict client-side form validation (12-character names, email Regex, phone number checks, consent checkbox).
 - Added a CSS processing spinner to form submit buttons.
