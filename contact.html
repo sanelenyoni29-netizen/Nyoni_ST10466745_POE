@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Sweet Crust Bakery</title>
+    <meta name="description" content="Contact Sweet Crust Bakery in Pretoria. Find our locations in Brooklyn and Menlyn, view our interactive map, or send us a message.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sweet Crust Bakery</h1>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <img src="images/bakery-interior.jpg" alt="Sweet Crust Bakery interior" class="feature-image">
+            <p>We would love to hear from you. Visit us at one of our locations in Pretoria:</p>
+            
+            <div class="locations-container">
+                <div>
+                    <h3>Location 1: Brooklyn</h3>
+                    <address>
+                        123 Main Street<br>
+                        Brooklyn, Pretoria, 0181<br>
+                        Phone: +27 12 345 6789
+                    </address>
+                </div>
+                <div>
+                    <h3>Location 2: Menlyn</h3>
+                    <address>
+                        456 Oak Avenue<br>
+                        Menlyn, Pretoria, 0063<br>
+                        Phone: +27 12 987 6543
+                    </address>
+                </div>
+            </div>
+
+            <h3>Find Us Here</h3>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115263.40121967668!2d28.13319879069455!3d-25.747866822534205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95619c9d6f4271%3A0x9bf9f7f9e4d5b3e8!2sPretoria!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Sweet Crust Bakery Location Map Pretoria">
+                </iframe>
+            </div>
+
+            <h3>Send Us A Message</h3>
+            <form id="contactForm">
+                <label for="contact-name">Name: *</label>
+                <input type="text" id="contact-name" name="contact-name" placeholder="Your full name" required>
+                <span class="error-msg" id="contactNameError"></span>
+
+                <label for="contact-email">Email: *</label>
+                <input type="email" id="contact-email" name="contact-email" placeholder="you@example.com" required>
+                <span class="error-msg" id="contactEmailError"></span>
+
+                <label for="contact-phone">Phone: *</label>
+                <input type="tel" id="contact-phone" name="contact-phone" placeholder="e.g. 0821234567" required>
+                <span class="error-msg" id="contactPhoneError"></span>
+
+                <label for="contact-reason">Reason for Contact: *</label>
+                <select id="contact-reason" name="contact-reason" required>
+                    <option value="">-- Please select --</option>
+                    <option value="general">General Enquiry</option>
+                    <option value="order">Order Status</option>
+                    <option value="feedback">Feedback/Complaint</option>
+                    <option value="volunteer">Volunteer/Sponsor</option>
+                </select>
+                <span class="error-msg" id="contactReasonError"></span>
+
+                <label for="contact-msg">Message: *</label>
+                <textarea id="contact-msg" name="contact-msg" rows="4" placeholder="Tell us how you'd like to help.." required></textarea>
+                <span class="error-msg" id="contactMsgError"></span>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="contact-consent" name="contact-consent" required>
+                    <label for="contact-consent">I consent to Sweet Crust Bakery storing my details to respond to my query. *</label>
+                </div>
+                <span class="error-msg" id="contactConsentError"></span>
+
+                <button type="submit" id="contactSubmitBtn">Send Message</button>
+            </form>
+            <div id="contactFormResponse"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Sweet Crust Bakery</h3>
+                <p>Baking happiness into every bite since 2024. Visit us in Pretoria for the finest artisan breads and pastries.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Our Products</a></li>
+                    <li><a href="order.html">Order Online</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p>123 Main Street, Brooklyn</p>
+                <p>Pretoria, 0181</p>
+                <p>Phone: +27 12 345 6789</p>
+                <p>Email: <a href="mailto:hello@sweetcrust.com">hello@sweetcrust.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sweet Crust Bakery. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
