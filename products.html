@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Products | Sweet Crust Bakery</title>
-    <meta name="description" content="View our selection of fresh artisan breads, pastries, and custom cakes. Click any image to view it in full size.">
+    <meta name="description" content="View our selection of fresh artisan breads, pastries, and custom cakes. Search our menu and click any image to view it in full size.">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <h1>Sweet Crust Bakery</h1>
         <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
@@ -30,7 +31,15 @@
             <h2>Our Baked Goods</h2>
             <p>All our products are baked fresh daily. Click on any image to view it in a larger size.</p>
             
-            <div class="product-grid">
+            <!-- DYNAMIC SEARCH BAR -->
+            <div class="search-container">
+                <input type="text" id="productSearch" placeholder="Search for bread, cakes, pastries..." aria-label="Search products">
+            </div>
+
+           
+            <div class="product-grid" id="productGrid">
+                
+                <!-- Product Card 1 -->
                 <div class="product-card">
                     <h3>Artisan Breads</h3>
                     <img src="images/ciabatta.jpg" alt="Fresh ciabatta bread" class="product-img">
@@ -42,6 +51,7 @@
                     </ul>
                 </div>
 
+                <!-- Product Card 2 -->
                 <div class="product-card">
                     <h3>Fresh Pastries</h3>
                     <img src="images/croissant.jpg" alt="Butter croissant" class="product-img">
@@ -53,6 +63,7 @@
                     </ul>
                 </div>
 
+               
                 <div class="product-card">
                     <h3>Custom Cakes & Tarts</h3>
                     <img src="images/lemon-tart.jpg" alt="Lemon tart" class="product-img">
@@ -64,15 +75,20 @@
                     </ul>
                     <p>Visit our <a href="enquiry.html">Enquiry page</a> to order.</p>
                 </div>
+
             </div>
+            
+           
+            <p id="noResults" style="display: none; text-align: center; font-weight: bold; margin-top: 2rem;">No products found matching your search.</p>
         </section>
     </main>
 
+    <!-- MULTI-COLUMN FOOTER -->
     <footer>
         <div class="footer-container">
             <div class="footer-col">
                 <h3>Sweet Crust Bakery</h3>
-                <p>Baking happiness into every bite since 2024. Visit us in Pretoria for the finest artisan breads and pastries.</p>
+                <p>Baking happiness into every bite since 2010. Visit us in Pretoria for the finest artisan breads and pastries.</p>
             </div>
             <div class="footer-col">
                 <h3>Quick Links</h3>
@@ -97,6 +113,7 @@
             <p>&copy; 2026 Sweet Crust Bakery. All Rights Reserved.</p>
         </div>
     </footer>
+    
     <script src="js/script.js"></script>
 </body>
 </html>
