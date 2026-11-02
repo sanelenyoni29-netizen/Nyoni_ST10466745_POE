@@ -119,10 +119,6 @@ To meet modern web standards, the following SEO best practices were applied:
 
 Part 1 - Structure & HTML:
 
-- Initial project setup.
-- Developed HTML skeleton and semantic navigation for all pages.
-- Integrated provided bakery images with descriptive alt tags.
-- Created an order.html page with a pricing table.
 - Created the initial project structure (css, js, images folders).
 - Created the Home page.
 - Created the About Us page.
