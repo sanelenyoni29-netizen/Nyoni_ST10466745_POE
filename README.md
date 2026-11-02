@@ -134,11 +134,17 @@ Part 1 - Structure & HTML:
 
  Part 2 - CSS & Responsive Design:
 
-- Created and linked external style.css.
-- Implemented CSS Grid for products and footer layout.
-- Added hover and focus pseudo-classes for interactive elements.
-- Implemented media queries for mobile and desktop layouts.
-- Added a multi-column footer with Quick Links.
+- Created an external CSS stylesheet.
+- Linked the stylesheet to all HTML pages.
+- Added website colours (CSS variables) and custom typography.
+- Styled the header, navigation, and multi-column footer.
+- Styled images, product cards, and the order table.
+- Applied the CSS Box Model (margins, padding, borders).
+-Added borders, border radius, and box shadows.
+- Added link and form pseudo-classes and hover effects.
+- Added responsive styling, media queries, and breakpoints.
+- Applied a mobile-friendly approach (stacking grids and footers).
+- Created the CSS for the animated mobile hamburger menu.
 
 Part 3 - JavaScript, SEO & Deployment:
 
