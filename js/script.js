@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     
-    // ======================================================================
-    // 1. HAMBURGER MENU TOGGLE (Responsive Navigation)
-    // W3Schools Reference: https://www.w3schools.com/js/js_htmldom_elements.asp
-    // ======================================================================
+
     const hamburger = document.getElementById('hamburger-btn');
     const navMenu = document.getElementById('nav-menu');
 
@@ -21,9 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // ======================================================================
-    // 2. IMAGE LIGHTBOX / MODAL (Products Page Gallery)
-    // ======================================================================
     const images = document.querySelectorAll('.product-img');
     
     if (images.length > 0) {
@@ -48,9 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // ======================================================================
-    // 3. ENQUIRY FORM VALIDATION & AJAX (enquiry.html)
-    // ======================================================================
+ 
     const enquiryForm = document.getElementById('enquiryForm');
 
     if (enquiryForm) {
@@ -108,9 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // ======================================================================
-    // 4. CONTACT FORM VALIDATION & AJAX (contact.html)
-    // ======================================================================
+   
     const contactForm = document.getElementById('contactForm');
 
     if (contactForm) {
