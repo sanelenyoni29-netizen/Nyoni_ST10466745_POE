@@ -123,6 +123,18 @@ Part 1 - Structure & HTML:
 - Developed HTML skeleton and semantic navigation for all pages.
 - Integrated provided bakery images with descriptive alt tags.
 - Created an order.html page with a pricing table.
+- Created the initial project structure (css, js, images folders).
+- Created the Home page.
+- Created the About Us page.
+- Created the Products page.
+- Created the Order Online page (featuring a pricing table).
+- Created the Enquiry page.
+- Created the Contact Us page (including an interactive map).
+- Added navigation links between all pages.
+- Added bakery information, history, and team details.
+- Added images and other website content with descriptive alt tags.
+- Added enquiry and contact forms with placeholder text.
+- Added unique meta descriptions for SEO.
 
  Part 2 - CSS & Responsive Design:
 
