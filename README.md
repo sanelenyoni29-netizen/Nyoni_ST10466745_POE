@@ -148,13 +148,17 @@ Part 1 - Structure & HTML:
 
 Part 3 - JavaScript, SEO & Deployment:
 
-- Implemented JavaScript for the mobile hamburger menu toggle.
-- Added strict client-side form validation (12-character names, email Regex, phone number checks, consent checkbox).
-- Added a CSS processing spinner to form submit buttons.
-- Implemented simulated AJAX submission for forms, displaying dynamic success messages.
-- Added an interactive Google Map centered on Pretoria.
-- Added Meta descriptions and SEO tags to all pages.
-- Created robots.txt and sitemap.xml.
+- Added JavaScript to toggle the mobile menu open and closed.
+- Added animation logic to change the hamburger icon into an 'X' when clicked.
+- Added a dynamic search bar to filter products in real-time.
+- Added a lightbox modal to view product images in a larger size.
+- Added JavaScript to validate form inputs before submission.
+- Added specific validation rules (name character limit, email format, phone number format).
+- Added error handling to display error messages when input is invalid.
+- Added a simulated AJAX submission to prevent page reloads.
+- Added a "Processing" spinner animation while the form submits.
+- Added dynamic success messages to confirm submission.
+
 
 ---
 
